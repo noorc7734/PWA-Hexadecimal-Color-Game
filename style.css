@@ -1,0 +1,118 @@
+
+body {
+  font-family: 'Gemunu Libre', sans-serif;
+  width: 100%;
+  height:100%;
+  margin-top: 5%
+    
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color:#f21b22;
+}
+
+p {
+  font-size: 25px;
+  text-align: center;
+  margin-right: 10%;
+  margin-left:10%;
+}
+
+#colorSample {
+  width: 50%;
+  height: 100px;
+  border-radius: 25px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: red;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 50px;
+   z-index: -1;
+}
+
+.answer {
+  width: 250px;
+  font-size: 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border: thin solid black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+#score {
+  font-size: 25px;
+  border: thin solid white;
+  margin-right: auto;
+}
+
+
+.menu {
+  text-align:center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.button {
+  background-color: #f21b22;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Gemunu Libre', sans-serif;
+  
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 1px solid black;
+}
+
+button:hover {
+  background-color: #f21b22;
+  color:white;
+  border: 1px solid white;
+}
+
+
+#lightbox {
+  visibility: hidden;
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  background-color:white; 
+  z-index: -1;
+}
+
+#message {
+  
+    width:80%;
+    min-width:400px;
+    padding:20px;
+    background-color:white;
+    color:red;
+    text-align:center;
+    font-size:4em;
+    font-weight:bold;
+	/* veritcally and horizontally center the text */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
